@@ -9,7 +9,7 @@
     
     
     1. Програма вивела значення
-    1. Отримано наступні результати Bohdan start programming at 2024-11-01 16:48:31.476307. Lviv is the best city!
+    1. Отримано наступні результати Олег started learning Python on 2024-11-05 22:32:57. Kyiv is a wonderful place!
     1. Навчились прості програми на мові Python
 
 
@@ -19,9 +19,11 @@ ___
 
 ```Python
 from datetime import datetime
-name = "Bohdan"
-location = "Lviv"
 
-print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
+name = "Олег"
+location = "Kyiv"
+activity = "learning Python"
+
+print(f"{name} started {activity} on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}. {location} is a wonderful place!")
 
 ```
